@@ -1,3 +1,37 @@
+/**********Tag Selector*********/
+
 body{
+    margin: 0;
+}
+
+h1{
+    margin-top: 0;
+}
+
+/**********Class Selector*********/
+.top_section{
+    background-color: #C0EEE4;
+}
+
+.middle_section{
+    width: 200px;
+    height: 200px;
     background-color: blue;
 }
+
+.end_section{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+
+
+/**********ID Selector*********/
+
+
