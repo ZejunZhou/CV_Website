@@ -10,7 +10,10 @@ h1{
 
 /**********Class Selector*********/
 .top_section{
+    position: relative;
     background-color: #C0EEE4;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .middle_section{
@@ -35,5 +38,21 @@ h1{
 
 
 /**********ID Selector*********/
+
+#top_cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+
+
+
+}
+
+#buttom_cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
 
 
