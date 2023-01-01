@@ -1,4 +1,4 @@
-/**********Tag Selector*********/
+/********** Element Tag Selector*********/
 
 body{
     margin: 0;
@@ -17,12 +17,14 @@ h1{
     width: 200px;
     height: 200px;
     background-color: blue;
+
 }
 
 .end_section{
     width: 200px;
     height: 200px;
     background-color: red;
+    
 }
 
 .underline{
