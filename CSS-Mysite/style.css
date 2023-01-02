@@ -3,11 +3,13 @@
 body{
     margin: 0;
     font-family: 'Merriweather', serif; /*serif as a default prevent unexpected error*/
+    text-align: center;
 }
 
 h1{
     margin-top: 0;
     font-family: 'Sacramento', cursive;
+    font-size: 90px;
 }
 
 h2{
@@ -22,22 +24,27 @@ h3{
 .top_section{
     position: relative;
     background-color: #C0EEE4;
-    text-align: center;
     padding-top: 100px;
 }
 
 .middle_section{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+   
 
 }
 
 .end_section{
+ 
+    
+}
+
+.profile_photo{
     width: 200px;
     height: 200px;
-    background-color: red;
-    
+    border-radius: 50%;
+}
+
+.skiil_photo{
+
 }
 
 .underline{
