@@ -4,11 +4,16 @@ body{
     margin: 0;
     font-family: 'Merriweather', serif; /*serif as a default prevent unexpected error*/
     text-align: center;
+    color:#40514E;
 }
 
 a{
-    color:#11999E
+    color:#11999E;
+    font-family: 'Merriweather', serif;
+    margin: 0 20px 0;
+    text-decoration:none;
 }
+
 
 h1{
     margin:50px auto 0 auto;
@@ -23,11 +28,25 @@ h2{
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding: 10px;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+}
+
+hr{
+    border: dotted 6px;
+    border-bottom: none;
+    width: 4%;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    margin:100px auto; /*top and bottom 100, left right center*/
+}
+
+p{
+    line-height: 2;
 }
 
 
@@ -39,6 +58,7 @@ h3{
     position: relative;
     background-color:#EAFDFC;
     padding-top: 100px;
+    margin-bottom: 100px;
 }
 
 .middle_section{
@@ -47,7 +67,9 @@ h3{
 }
 
 .end_section{
- 
+ margin-top: 100px;
+ background-color: #11999E;
+ padding: 50px 0 20px; 
     
 }
 
@@ -61,7 +83,7 @@ h3{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -78,6 +100,11 @@ h3{
     text-decoration: none;
   }
 
+.intro{
+    width: 30%; /*taking 30 percent width of middle section*/
+    margin: auto;
+}
+
 .profile_photo{
     width: 200px;
     height: 200px;
@@ -88,7 +115,6 @@ h3{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .skill_photo_c1{
@@ -107,10 +133,28 @@ h3{
 
 }
 
+.end_section a{
+    color:#EAF6F6;
+}
+
+.end_section a:hover{
+    color:gray;
+}
+
 
 
 .underline{
     text-decoration: underline;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copy-right{
+    color:#EAF6F6;
+    padding: 20px;
 }
 
 
@@ -119,7 +163,7 @@ h3{
 #top_cloud{
     position: absolute;
     right: 300px;
-    top:50px;
+    top:40px;
 
 
 
@@ -127,7 +171,7 @@ h3{
 
 #buttom_cloud{
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 
 }
