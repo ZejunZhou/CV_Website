@@ -9,13 +9,15 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">  <!--background light/dark-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">  <!--background light/dark, position: fixed on top-->
+
+        <a class="navbar-brand" href="">brand</a> <!--rendering the brand first and then coming to the hamburger menu, swap the order if brand is under the hamburger-->
+
         <!--adding the hamburger menu-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--response for the navbar section dropdown-->
-            <a class="navbar-brand" href="">brand</a>
             <ul class="navbar-nav ms-auto"> <!--m stands for margin s stands for start-->
                 <li class="nav-item">
                     <a class="nav-link" href="">Contact</a>
