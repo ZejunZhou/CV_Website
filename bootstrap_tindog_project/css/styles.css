@@ -1,1 +1,26 @@
-.
+/********Element Tag SELECTOR****/
+button{
+    display: block;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+/********Class SELECGOR*****/
+
+
+
+
+/********ID SELECTOR*******/
+#title{
+    background-color: #ff4c68;
+}
