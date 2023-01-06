@@ -1,4 +1,9 @@
 /********Element Tag SELECTOR****/
+body{
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
 button{
     display: block;
 }
@@ -6,16 +11,16 @@ button{
 h1{
     font-family: "Montserrat";
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 
 
-
-
-
-
 /********Class SELECGOR*****/
+
+.container{
+    padding: 3% 10%;
+}
 
 
 
@@ -23,4 +28,39 @@ h1{
 /********ID SELECTOR*******/
 #title{
     background-color: #ff4c68;
+    color: aliceblue;
+}
+
+/*******NavBar********/
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 3.5rem;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.1rem;
+}
+
+.Download-button{
+    margin-top: 10%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left:10%;
 }
