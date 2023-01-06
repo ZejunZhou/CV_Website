@@ -15,6 +15,14 @@ h1{
     line-height: 1.5;
 }
 
+h2{
+    color: aliceblue;
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
 
 /********Class SELECGOR*****/
 
@@ -29,6 +37,16 @@ h1{
 #title{
     background-color: #ff4c68;
     color: aliceblue;
+}
+
+#features{
+    padding: 3% 0;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 10%;
 }
 
 /*******NavBar********/
@@ -93,7 +111,9 @@ h1{
     padding: 0 2%;
 }
 
-#features{
-    padding: 3% 0;
+/****** Testimonials Class *****/
+.testimonial-image{
+    border-radius: 50%;
+    width: 12%;
+    margin: 20px;
 }
-
