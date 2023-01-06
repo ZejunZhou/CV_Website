@@ -52,6 +52,8 @@ h1{
     font-size: 1.1rem;
 }
 
+/****Title class*******/
+
 .Download-button{
     margin-top: 10%;
     margin-right: 3%;
@@ -64,3 +66,34 @@ h1{
     position: relative;
     left:10%;
 }
+
+/******Feature class *******/
+
+.feature-icon{
+    color: #ef8172;
+    margin: 5%;
+}
+
+.feature-icon:hover{
+    color:#ff4c68;
+}
+
+.feature-heading{
+    font-family:"Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.feature-paragraph{
+    color: #8f8f8f;
+}
+
+.feature-content{
+    text-align: center;
+    padding: 0 2%;
+}
+
+#features{
+    padding: 3% 0;
+}
+
