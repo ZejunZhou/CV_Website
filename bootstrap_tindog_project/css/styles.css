@@ -23,6 +23,14 @@ h2{
     line-height: 1.5;
 }
 
+h3{
+    font-family: "Montserrat";
+}
+
+p{
+    font-family: "Montserrat";
+}
+
 
 /********Class SELECGOR*****/
 
@@ -50,6 +58,12 @@ h2{
 
 #press{
     background-color: #ef8172;;
+    text-align: center;
+}
+
+#pricing{
+    padding:10%;
+    padding-top: 5%;
     text-align: center;
 }
 
@@ -131,4 +145,14 @@ h2{
 .press-logo{
     width:15%;
     margin: 3%;
+}
+
+/*******Pricing Class *****/
+
+#pricing h2{
+    color:black;
+}
+
+.card-col{
+    padding: 2% 3%;
 }
