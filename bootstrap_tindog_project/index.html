@@ -29,7 +29,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-dark">  <!--background light/dark, position: fixed on top-->
 
-        <a class="navbar-brand" href="">brand</a> <!--rendering the brand first and then coming to the hamburger menu, swap the order if brand is under the hamburger-->
+        <a class="navbar-brand" href="">TinDog</a> <!--rendering the brand first and then coming to the hamburger menu, swap the order if brand is under the hamburger-->
 
         <!--adding the hamburger menu-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,13 +110,33 @@
 
   <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img class = "testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    <!--include class = carousel slide for bootstrap -->
+    <!--adding data-bs-ride enable the autoplay-->
+    <!--adding data-bs-pause enable to pause when ever hover the slide show-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class = "testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <h2>My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <!--use for people with reading disability-->
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <!--use for people with reading disability-->
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
   </section>
 
@@ -124,10 +144,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img  class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img  class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img  class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img  class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
