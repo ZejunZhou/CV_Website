@@ -29,7 +29,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-dark">  <!--background light/dark, position: fixed on top-->
 
-        <a class="navbar-brand" href="">TinDog</a> <!--rendering the brand first and then coming to the hamburger menu, swap the order if brand is under the hamburger-->
+        <a class="navbar-brand" href="#title">TinDog</a> <!--rendering the brand first and then coming to the hamburger menu, swap the order if brand is under the hamburger-->
 
         <!--adding the hamburger menu-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,15 +38,15 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--response for the navbar section dropdown-->
             <ul class="navbar-nav ms-auto"> <!--m stands for margin s stands for start-->
                 <li class="nav-item">
-                    <a class="nav-link" href="">Contact</a>
+                    <a class="nav-link" href="#footer">Contact</a>
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link" href="">Price</a>
+                    <a class="nav-link" href="#pricing">Price</a>
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link" href="">Download</a>
+                    <a class="nav-link" href="#cta">Download</a>
                 </li>
             </ul>
         </div>
@@ -225,8 +225,10 @@
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+
+    <button type="button" class="btn btn-outline-light btn-lg Download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+
+    <button type="button" class="btn btn-dark btn-lg Download-button"><i class="fa-brands fa-apple"></i> Download</button>
 
   </section>
 
@@ -235,6 +237,10 @@
 
   <footer id="footer">
 
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-envelope"></i>
     <p>© Copyright TinDog</p>
 
   </footer>
