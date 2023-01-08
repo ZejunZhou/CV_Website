@@ -8,29 +8,9 @@ button{
     display: block;
 }
 
-h1{
-    font-family: "Montserrat";
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2{
-    color: aliceblue;
-    font-family: "Montserrat";
-    font-size: 2.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h3{
+h1,h2,h3,h4,h5,h6{
     font-family: "Montserrat";
 }
-
-p{
-    font-family: "Montserrat";
-}
-
 
 /********Class SELECGOR*****/
 
@@ -104,6 +84,12 @@ p{
 
 /****Title class*******/
 
+#title h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 .Download-button{
     margin-top: 10%;
     margin-right: 3%;
@@ -172,6 +158,13 @@ p{
     padding-bottom: 20px;
 }
 
+#testimonials h2{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
 /******* Press Class ******/
 .press-logo{
     width:15%;
@@ -182,6 +175,9 @@ p{
 
 #pricing h2{
     color:black;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
 }
 
 .card-col{
